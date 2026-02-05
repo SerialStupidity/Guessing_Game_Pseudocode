@@ -1,0 +1,21 @@
+set play to 1
+
+while play does not eqaul 0
+    set random to a random number between 1 and 100
+    set attempts to 0
+    
+    until attempts equals 7 or guess equals random
+        print "guess a number between 1 and 100"
+        input guess
+        if guess is not equal to random
+            print "try again"
+            add 1 to attempts
+            
+    if guess equals random
+          print"You guessed the number!"
+    if guess in not equal to random
+          print "you lose, better luck next time"
+    print"press 1 to play again, press 0 to exit"
+    input play
+
+exit code
