@@ -13,8 +13,10 @@ while play does not eqaul 0
             
     if guess equals random
           print"You guessed the number!"
+
     if guess in not equal to random
           print "you lose, better luck next time"
+
     print"press 1 to play again, press 0 to exit"
     input play
 
